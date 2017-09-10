@@ -59,7 +59,7 @@ console.log("#####################");
 console.log("#####################");
 
 var another_stooge = Object.createObj(stooge);
-// console.log(stooge);
+console.log(stooge.);
 console.log(another_stooge);
 console.log("another_stooge prototype " + JSON.stringify(another_stooge.__proto__));
 console.log("another_stooge['first-name']: " + another_stooge["first-name"]);
