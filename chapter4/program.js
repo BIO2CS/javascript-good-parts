@@ -191,7 +191,7 @@ var memoFibonacci = memoizer([0, 1], function(shell, n) {
 });
 var factorial = memoizer([1, 1], function(shell, n) {
   return shell(n - 1) * n;
-})
+});
 document.writeln("using memoizer fibonacci $$$$$$$$$$$");
 for (let i = 0; i < 10; i++) {
   document.writeln("// " + i + ": " + memoFibonacci(i));
